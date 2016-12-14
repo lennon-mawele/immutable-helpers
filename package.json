@@ -1,0 +1,39 @@
+{
+  "name": "immutable-helpers",
+  "version": "0.0.1",
+  "description": "Set of helper functions to work with Redux reducers immutably",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-plugin-uglify": "^1.0.2",
+    "babel-preset-babili": "0.0.9",
+    "babel-preset-env": "^1.1.1",
+    "chai": "^3.5.0",
+    "deep-freeze": "0.0.1",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --reporter spec",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zammer/immutable-helpers.git"
+  },
+  "keywords": [
+    "redux",
+    "immutable"
+  ],
+  "author": "M. Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zammer/immutable-helpers/issues"
+  },
+  "homepage": "https://github.com/zammer/immutable-helpers#readme"
+}
