@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zammer/immutable-helpers.svg?branch=master)](https://travis-ci.org/zammer/immutable-helpers)
+
 ## Synopsis
 
 Simple set of functions that I wrote whilst working on redux applications to help with common use cases while maintaining immutability with in your reducers.
