@@ -1,6 +1,6 @@
 {
   "name": "immutable-helpers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set of helper functions to work with Redux reducers immutably",
   "main": "index.js",
   "engines": {
