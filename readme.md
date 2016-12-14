@@ -7,7 +7,14 @@ Simple set of functions that I wrote whilst working on redux applications to hel
 Import into file:
 
 ```js
-  import { immutableMerge } from 'immutable-helpers';
+  import {
+    immutableConcat,
+    immutablePush,
+    immutableRemove,
+    immutableMerge,
+    immutableMergeMany,
+    immutableUpdateObjectByKey
+ } from 'immutable-helpers';
 ```
 
 Usage example:
